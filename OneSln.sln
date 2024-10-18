@@ -7,9 +7,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{C7382126-B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{907A2360-1235-4C71-B9B6-0596A0FCEFC8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GlobalExceptionHandlingAPI", "GlobalExceptionHandlingAPI", "{F90D2BFA-79AB-484C-9013-EA2F926415CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalExceptionHandling", "GlobalExceptionHandling\GlobalExceptionHandling.csproj", "{56BAC519-119B-4C4F-803C-0A202CD68A59}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56BAC519-119B-4C4F-803C-0A202CD68A59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56BAC519-119B-4C4F-803C-0A202CD68A59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56BAC519-119B-4C4F-803C-0A202CD68A59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56BAC519-119B-4C4F-803C-0A202CD68A59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F90D2BFA-79AB-484C-9013-EA2F926415CF} = {C7382126-B6F4-428E-87EE-AA9FE19804AF}
+		{56BAC519-119B-4C4F-803C-0A202CD68A59} = {F90D2BFA-79AB-484C-9013-EA2F926415CF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {149B54E2-ECDE-4D05-90F1-78DE8E3F95AD}
